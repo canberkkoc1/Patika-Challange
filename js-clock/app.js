@@ -1,4 +1,4 @@
-(function main(){
+(function (){
     let userName = prompt("Lütfen isminizi giriniz")
     let headerName = document.querySelector("#headerTwo")
 
