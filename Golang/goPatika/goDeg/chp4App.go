@@ -30,4 +30,11 @@ func main() {
 	const num1 = 3223
 	fmt.Printf("%T %v\n", num1, num1)
 
+	t, g := "a", "b"
+
+	fmt.Printf("%T %v\n", t == g, t == g)
+	fmt.Printf("%T %v\n", t != g, t != g)
+	fmt.Printf("%T %v\n", t < g, t < g)
+	fmt.Printf("%T %v\n", t > g, t > g)
+
 }
